@@ -1,8 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@500;600;700&family=Roboto:wght@700&display=swap');
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+.inter{
+    font-family: 'Inter', sans-serif;
+}
+nav > ul{
+    list-style: none;
+    display: flex;
+    gap: 34px;
+    /* border:1px solid blue; */
+    align-items: center;
+}
+nav > ul a{
+    font-family: "poppins";
+    text-decoration: none;
+    color:black;
+}
+header{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    border: 1px solid red;
+    padding: 87px 120px;
+}
+.banner{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+
+/* common themes */
+.btn-primary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    background-color: red;
+    padding: 10px 24px;
+}
+.btn-round{
+    border-radius: 41px;
+}
+
+
+
 footer{
     background-color: black;
     color:white;
